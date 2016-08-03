@@ -1,0 +1,85 @@
+<html>          
+    <body>
+        <div class="mainbody-section text-center">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-md-4">
+                        
+                        <div class="menu-item blue">
+                            <%#= link_to new_user_session_path,'data-toggle' => 'modal', 'data-target' => '#loginModal' do %>
+                            <%= link_to new_user_session_path do %>
+                            
+                              <i class="fa fa-magic"></i> 
+                              <p>Login</p>
+                              <%= render partial: "layouts/login" %>
+                            <% end %>
+                        </div>
+                        
+                        <div class="menu-item green">
+                            <%= link_to '' do %>
+                              <i class="fa fa-file-photo-o"></i> 
+                              <p>Portfolio</p>
+                            <% end %>
+                        </div>
+
+                        <div class="menu-item light-red">
+                            <%= link_to '' do %>
+                              <i class="fa fa-user"></i> 
+                              <p> About Us </p>
+                            <% end %>
+                        </div>                        
+                    </div>
+                    
+                    <div class="col-md-4">
+                                <div class="menu-item color">
+                                    <a href="https://graygrids.com/demos/themes/elevator/no-slider/#service-modal" data-toggle="modal">
+                                        <i class="fa fa-area-chart"></i>
+                                        <p>Services</p>
+                                    </a>
+                                </div>
+                            
+                                <div class="menu-item light-orange">
+                                    <a href="https://graygrids.com/demos/themes/elevator/no-slider/#team-modal" data-toggle="modal">
+                                        <i class="fa fa-users"></i>
+                                        <p>Team</p>
+                                    </a>
+                            </div>
+
+                                <div class="menu-item purple">
+                                    <a href="https://graygrids.com/demos/themes/elevator/no-slider/#pricing-modal" data-toggle="modal">
+                                        <i class="fa fa-usd"></i>
+                                        <p>Pricing</p>
+                                    </a>
+                            </div>                        
+                    </div>
+                    
+                    <div class="col-md-4">
+                        
+                        <div class="menu-item light-red">
+                            <a href="https://graygrids.com/demos/themes/elevator/no-slider/#contact-modal" data-toggle="modal">
+                                <i class="fa fa-envelope-o"></i>
+                                <p>Contact</p>
+                            </a>
+                        </div>
+                        
+                        <div class="menu-item color">
+                            <a href="https://graygrids.com/demos/themes/elevator/no-slider/#clients-modal" data-toggle="modal">
+                                <i class="fa fa-comment-o"></i>
+                                <p>Clients</p>
+                            </a>
+                        </div>
+                        
+                        <div class="menu-item blue">
+                            <a href="https://graygrids.com/demos/themes/elevator/no-slider/#news-modal" data-toggle="modal">
+                                <i class="fa fa-edit"></i>
+                                <p>Blog</p>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>
