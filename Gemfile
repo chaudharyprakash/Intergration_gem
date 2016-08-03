@@ -11,6 +11,7 @@ gem 'devise'
 gem 'pg'
 gem 'bootstrap', '~> 4.0.0.alpha3'
 gem "font-awesome-rails"
+gem "cancan"
 # facebook login
 gem 'omniauth-facebook'	
 # Use SCSS for stylesheets
